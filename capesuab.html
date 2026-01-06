@@ -75,7 +75,7 @@
   </div>
 
   <form id="declaracaoForm">
-    <h2 style="text-align: center;"><strong>Declaração de Não-Acúmulo de Bolsas UAB</strong></h2>
+    <h2 style="text-align: center;"><strong>Declaração de Pagamento de Bolsas UAB</strong></h2>
 
     <label for="nome">Nome Completo:</label>
     <input type="text" id="nome" required autocomplete="name">
@@ -210,7 +210,7 @@
       const data = document.getElementById("data").value;
       const dataExtenso = formatarDataPorExtenso(data);
 
-      const texto = `Eu, ${nome}, CPF ${cpf}, bolsista da modalidade ${modalidade}, declaro que não possuo outros pagamentos de bolsas em desacordo com a Lei nº 11.273, de 06 de fevereiro de 2006, portarias conjuntas CAPES/CNPq nº 01/2013 e nº 2/2014, demais legislações correlatas e suas eventuais atualizações.`;
+      const texto = `Eu, ${nome}, CPF ${cpf}, bolsista da modalidade ${modalidade} do Sistema UAB, declaro que não possuo outros pagamentos de bolsas em desacordo com a legislação vigente.`;
 
       doc.setFont("helvetica", "normal");
       doc.setFontSize(12);
@@ -256,3 +256,4 @@
 
 </body>
 </html>
+
